@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title> Empréstimo de Livros </title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <center>
+	<h1> Bliblioteca </h1>
+	<form method="post" action="emprestimo_livros.php">
+        <h3> Dados do Usuário </h3>
+		Matrícula: <input type="text" name="matricula" id="matricula"> <br><br>
+        Tipo de Usuário: 
+        <input type="radio" name="tipo_usuario" value="aluno"> Aluno
+        <input type="radio" name="tipo_usuario" value="professor"> Professor <br><br>
+        <h3> Dados do Livro </h3>
+		Nome do Livro: <input type="text" name="nome_livro" id="nome_livro"> <br><br>
+		Dia de Entrega: <input type="date" name="dia_entrega" id="dia_entrega"> <br><br>
+        Data que realmente entregou: <input type="date" name="entrega" id="entrega"> <br><br>
+		<input type="submit" value="Efetuar">
+	</form>
+    </center>
+</body>
+</html>
